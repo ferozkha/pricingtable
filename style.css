@@ -1,0 +1,252 @@
+.single_table {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.single_table.active {
+    box-shadow: 0px 1px 10px #666;
+    border: 0px solid;
+}
+.single_table.active .pricing_header h3 {
+    margin-top: 0px;
+    border-top: 0px solid #f1f1f1;
+}
+.single_table.active .pricing_header h1 {
+    padding-top: 25px;
+}
+.single_table.active .pricing_header p {
+    padding-bottom: 41px;
+}
+.single_table ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 1px solid #f1f1f1;
+}
+.single_table:last-child ul {
+    border-right: 1px solid #f1f1f1;
+}
+.single_table ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}
+.pricing_header{
+    background: #ddd;
+}
+.pricing_header h3{
+    background: #ccc;
+    padding: 10px;
+    margin-top: 15px;
+    border-top: 1px solid #f1f1f1;
+}
+.pricing_header h1{
+    padding: 20px;
+    font-size: 45px;
+    padding-bottom: 0;
+}
+.pricing_header p{
+    padding-bottom: 30px;
+}
+.pricing_footer{
+    padding: 10px;
+    border-left: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.single_table:last-child.pricing_footer{
+    border-right: 1px solid #f1f1f1;
+}
+.pricing_footer a{
+    display: inline-block;
+    padding: 10px 25px;
+    background: #ddd;
+    color: #fff;
+    border-radius: 5px;
+}
+/****table colo****/
+.single_table.mejenta-color .pricing_header {
+    background: #e91e63;
+    color: #fff;
+}
+.single_table.mejenta-color .pricing_header h3 {
+    background: #ed4b82;
+    text-transform: full-width;
+}
+.single_table.mejenta-color .pricing_footer a {
+    background: #e91e63;
+}
+.single_table.carot-color .pricing_header {
+    background: #0a642a;
+    color: #fff;
+}
+.single_table.carot-color .pricing_header h3 {
+    background: #11ad49;
+    text-transform: full-width;
+}
+.single_table.carot-color .pricing_footer a {
+    background: #0a642a;
+}
+.single_table.m-blue-color .pricing_header {
+    background: #64570a;
+    color: #fff;
+}
+.single_table.m-blue-color .pricing_header h3 {
+    background: #88770e;
+    text-transform: full-width;
+}
+.single_table.m-blue-color .pricing_footer a {
+    background: #64570a;
+}
+.single_table.silver-color .pricing_header {
+    background: #883a0e;
+    color: #fff;
+}
+.single_table.silver-color .pricing_header h3 {
+    background: #a94811;
+    text-transform: full-width;
+}
+.single_table.silver-color .pricing_footer a {
+    background: #883a0e;
+}
+/********second bootstrap********/
+.pricing_bootstrap {
+    background: #f5f5f5;
+    padding-bottom: 80px;
+}
+.single_bootstrap.in_out:hover {
+    -webkit-animation-name: sca;
+    -sm-animation-name: sca;
+    -webkit-animation: sca 1s ease-in-out infinite;
+    -sm-animation: sca 1s ease-in-out infinite;
+}
+@keyframes sca{
+    500%{transform: scale(1.1)}
+    100%{transform: scale(1)}
+    20%{transform: scale(1.1)}
+}
+.single_bootstrap.left:hover{
+    -webkit-animation-name: left;
+    -sm-animation-name: left;
+    -webkit-animation: left 3s ease-in-out infinite; 
+    -sm-animation: left 3s ease-in-out infinite; 
+    
+}
+@keyframes left{
+    100%{transform: translateX(0px)}
+    20%{transform: translateX(-120px)}
+}
+.single_bootstrap.right:hover {
+    -webkit-animation-name: right;
+    -sm-animation-name: right;
+    -webkit-animation: right 3s ease-in-out infinite; 
+    -sm-animation: right 3s ease-in-out infinite; 
+}
+@keyframes right {
+    100%{transform: translateX(0px)}
+    20%{transform: translateX(120px)}
+}
+.single_bootstrap.daily:hover {
+    -webkit-animation-name: daily;
+    -sm-animation-name: daily;
+    -webkit-animation: daily 5s ease-in-out infinite; 
+    -sm-animation: daily 5s ease-in-out infinite; 
+}
+@keyframes daily {
+    0%{transform: rotatex(0deg)}
+    100%{transform: rotatex(45deg)}
+    50%{transform: rotateX(360deg)}
+}
+.single_bootstrap {
+    text-align: center;
+    margin-top: 20px;
+    background: #fff;
+    padding-bottom: 15px;
+}
+.principle_bootstrap_header h3 {
+    margin: 0;
+    padding: 10px;
+    display: block;
+}
+.principle_bootstrap_radios {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 20px;
+}
+.principle_bootstrap_radios h1 {
+    font-size: 30px;
+}
+.principle_bootstrap_radios p {
+    font-size: 14px;
+}
+.single_bootstrap ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+.single_bootstrap ul li {
+    display: block;
+    padding: 10px;
+}
+.single_bootstrap ul li i {
+    margin-left: 50px;
+    font-size: 12px;
+    background: red;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.principle_bootstrap_footer a {
+    display: inline-block;
+    padding: 10px 33px;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+/********second color css********/
+.single_bootstrap.left.megenta_color h3{
+    background: #a17198;
+    color: #fff;
+}.single_bootstrap.left.megenta_color .principle_bootstrap_radios{
+    background: #825679;
+    color: #fff;
+}
+.single_bootstrap.left.megenta_color .principle_bootstrap_footer a{
+    background: #825679;
+    color: #fff;
+}
+.single_bootstrap.carot-color h3 {
+    background: #8d99b4;
+    color: #fff;
+}
+.single_bootstrap.carot-color .principle_bootstrap_radios {
+    background: #7180a1;
+    color: #fff;
+}
+.single_bootstrap.carot-color .principle_bootstrap_footer a{
+    background: #7180a1;
+    color: #fff;
+}
+.single_bootstrap.m-blue-color h3{
+    background: #825b56;
+    color: #fff;
+}.single_bootstrap.m-blue-color .principle_bootstrap_radios{
+    background: #563c39;
+    color: #fff;
+}
+.single_bootstrap.m-blue-color .principle_bootstrap_footer a{
+    background: #563c39;
+    color: #fff;
+}
+.single_bootstrap.silver_color h3{
+    background: #76a171;
+    color: #fff;
+}.single_bootstrap.silver_color .principle_bootstrap_radios{
+    background: #5a8256;
+    color: #fff;
+}
+.single_bootstrap.silver_color .principle_bootstrap_footer a{
+    background: #5a8256;
+    color: #fff;
+}
